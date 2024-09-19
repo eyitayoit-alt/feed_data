@@ -1,0 +1,21 @@
+gi{
+  "name": "pricefeeds",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Dapp for retrieving publish feeds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.3"
+  },
+  "dependencies": {
+    "@flarenetwork/flare-periphery-contract-artifacts": "^0.1.12",
+    "@flarenetwork/flare-periphery-contracts": "^0.1.6",
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
